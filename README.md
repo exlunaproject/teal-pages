@@ -8,9 +8,9 @@ Currently it can be used from within Lua scripts or Apache mod_lua if you enable
 
 Teal Pages is a beta, experimental merge of slightly modified parts of [tl's compiler](https://github.com/teal-language/tl/blob/master/tl) and a modified lp.lua. All input, feedback and contributions are highly appreciated.
 
-##Installation
+## Installation
 
-###Installation for Apache with mod_lua
+### Installation for Apache with mod_lua
 
 1. Edit the Apache httpd.conf file and uncomment: `LoadModule lua_module modules/mod_lua.so`
 2. Add:
@@ -21,11 +21,11 @@ LuaMapHandler "\.tlp$" "path/to/lua/teal-pages/tlp_handler.lua" handle_tlp
 
 Done! You can start using `<?teal` or simply `<?` in .tlp files.
 
-####Where do Teal Pages errors go?
+#### Where do Teal Pages errors go?
 
 Currently script transpilation errors are not yet printed through the handler, so you must check the Apache's errors.log. Error handling can still evolve a lot.
 
-####Note about FallbackResource
+#### Note about FallbackResource
 
 With Apache HTTPd <2.4.9, the FallbackResource directive should preferably not be used in the active virtual host, as it invalidates the LuaMapHandler directive.
 

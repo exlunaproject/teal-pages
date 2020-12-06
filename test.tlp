@@ -1,0 +1,14 @@
+<?teal
+require("testlib")
+
+function xadd(a: number, b: number): number
+   return a + b
+end
+?>
+
+Hello World!!!
+
+<?
+
+printnumber(xadd(1,2))
+?>

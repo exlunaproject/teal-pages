@@ -37,4 +37,4 @@ See test.tlp. Make sure testlib.tl is within the Lua libraries search path.
 
 Teal Pages is licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
-(c) Felipe Daragon, 2020
+(c) Felipe Daragon, exluna.org, 2020

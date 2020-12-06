@@ -2,7 +2,7 @@
 -- Teal Pages Template Preprocessor
 -- A modification of Lua Pages Template Preprocessor to enable the Teal language
 -- instead of Lua from within <?teal and ?> tags.
--- Copyright (c) 2020 Felipe Daragon
+-- Copyright (c) 2020 Felipe Daragon, exluna.org
 -- Portions copyright (c) 2019 Hisham Muhammad
 -- Portions copyright (c) 2007 CGILua
 -- License: MIT
